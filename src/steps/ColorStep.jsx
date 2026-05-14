@@ -4,10 +4,10 @@ import Button from '../components/ui/Button';
 import Card from '../components/ui/Card';
 
 const COLORS = [
-  { id: 'atlantic', name: 'Azul Atlântico', image: '/images/color_atlantic_1778796279272.png' },
-  { id: 'solaris', name: 'Verde Solaris', image: '/images/color_solaris_1778796293679.png' },
-  { id: 'champagne', name: 'Champagne Areia', image: '/images/color_champagne_1778796312649.png' },
-  { id: 'noir', name: 'Dourada Noir', image: '/images/color_noir_1778796328508.png' }
+  { id: 'atlantic', name: 'Azul Atlântico', image: 'images/color_atlantic_1778796279272.png' },
+  { id: 'solaris', name: 'Verde Solaris', image: 'images/color_solaris_1778796293679.png' },
+  { id: 'champagne', name: 'Champagne Areia', image: 'images/color_champagne_1778796312649.png' },
+  { id: 'noir', name: 'Dourada Noir', image: 'images/color_noir_1778796328508.png' }
 ];
 
 export default function ColorStep({ data, updateData, onNext, onPrev }) {

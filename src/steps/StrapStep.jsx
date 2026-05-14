@@ -4,10 +4,10 @@ import Button from '../components/ui/Button';
 import Card from '../components/ui/Card';
 
 const STRAPS = [
-  { id: 'thin_chain', name: 'Corrente Fina', subtitle: 'Delicada', image: '/images/strap_thin_1778796393145.png' },
-  { id: 'thick_chain', name: 'Corrente Encorpada', subtitle: 'Statement', image: '/images/strap_thick_1778796409732.png' },
-  { id: 'hand', name: 'Versão de Mão', subtitle: 'Chic', image: '/images/strap_hand_1778796422424.png' },
-  { id: 'crossbody', name: 'Crossbody', subtitle: 'Prática', image: '/images/strap_crossbody_1778796436546.png' }
+  { id: 'thin_chain', name: 'Corrente Fina', subtitle: 'Delicada', image: 'images/strap_thin_1778796393145.png' },
+  { id: 'thick_chain', name: 'Corrente Encorpada', subtitle: 'Statement', image: 'images/strap_thick_1778796409732.png' },
+  { id: 'hand', name: 'Versão de Mão', subtitle: 'Chic', image: 'images/strap_hand_1778796422424.png' },
+  { id: 'crossbody', name: 'Crossbody', subtitle: 'Prática', image: 'images/strap_crossbody_1778796436546.png' }
 ];
 
 export default function StrapStep({ data, updateData, onNext, onPrev }) {

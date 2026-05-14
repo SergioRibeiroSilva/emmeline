@@ -4,9 +4,9 @@ import Button from '../components/ui/Button';
 import Card from '../components/ui/Card';
 
 const HARDWARES = [
-  { id: 'gold', name: 'Dourado Clássico', subtitle: 'Atemporal', image: '/images/hw_gold_1778796342861.png' },
-  { id: 'vintage', name: 'Ouro Vintage', subtitle: 'Antiquado e elegante', image: '/images/hw_vintage_1778796366753.png' },
-  { id: 'nickel', name: 'Níquel Sofisticado', subtitle: 'Moderno', image: '/images/hw_nickel_1778796379037.png' }
+  { id: 'gold', name: 'Dourado Clássico', subtitle: 'Atemporal', image: 'images/hw_gold_1778796342861.png' },
+  { id: 'vintage', name: 'Ouro Vintage', subtitle: 'Antiquado e elegante', image: 'images/hw_vintage_1778796366753.png' },
+  { id: 'nickel', name: 'Níquel Sofisticado', subtitle: 'Moderno', image: 'images/hw_nickel_1778796379037.png' }
 ];
 
 export default function HardwareStep({ data, updateData, onNext, onPrev }) {
